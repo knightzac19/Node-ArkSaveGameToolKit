@@ -1,15 +1,2 @@
-const arkcache = require("./lib/cachedata.js");
-const ArkCacher = new arkcache();
+const ArkCache = require('./lib/reader/arkCache');
 
-class ArkData {
-  constructor(steamKey){
-    this.steamKey = steamKey;
-  }
-  refresh() {
-    ArkCacher.runCache(this.steamKey);
-  }
-}
-if(process.argv[2] == "test") {
-  ArkCacher.runCache(process.argv[3]);
-}
-module.exports = ArkData;
