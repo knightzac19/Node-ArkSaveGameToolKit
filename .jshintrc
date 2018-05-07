@@ -1,0 +1,8 @@
+{
+  "esversion": 6,
+  "multistr": true,
+  "node": true,
+  "globals": {
+    "Map": null
+  }
+}

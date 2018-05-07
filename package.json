@@ -1,0 +1,54 @@
+{
+  "name": "arksavegametoolkit",
+  "version": "0.5.0",
+  "url": "https://github.com/knightzac19/Node-ArkSaveGameToolKit",
+  "keywords": [
+    "ark",
+    "sourcequery",
+    "steam",
+    "api",
+    "savefile"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://https://github.com/knightzac19/Node-ArkSaveGameToolKit.git"
+  },
+  "bugs": {
+    "url": "https://https://github.com/knightzac19/Node-ArkSaveGameToolKit/issues"
+  },
+  "description": "NodeJS port of AuthiQ's ARK Server Data Reader.",
+  "main": "index.js",
+  "dependencies": {
+    "async": "^2.6.0",
+    "binary-parser": "^1.3.2",
+    "bluebird": "^3.4.1",
+    "body-parser": "git+https://github.com/Ericbla/binary-parser.git#PR_Return_Offset",
+    "chunk": "0.0.2",
+    "collections": "^5.1.2",
+    "colors": "^1.1.2",
+    "lodash": "^4.17.4",
+    "napajs": "^0.2.3",
+    "pg": "^6.4.2",
+    "pg-hstore": "^2.3.2",
+    "progress": "git+https://github.com/visionmedia/node-progress.git",
+    "sequelize": "git+https://github.com/lext-7/sequelize.git",
+    "sprintf-js": "^1.0.3",
+    "steam-webapi": "^0.6.5",
+    "uuid": "^3.2.1"
+  },
+  "scripts": {
+    "test": "nodemon test"
+  },
+  "author": {
+    "name": "Zachary Knight",
+    "email": "knightzac@gmail.com"
+  },
+  "contributors": [
+    "Zachary Knight <knightzac@gmail.com>"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^4.16.0",
+    "nodemon": "^1.14.7"
+  }
+}
